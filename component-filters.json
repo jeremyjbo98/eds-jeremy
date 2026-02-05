@@ -19,6 +19,12 @@
     ]
   },
   {
+    "id": "banco-compartir-carousel",
+    "components": [
+      "carousel-slide"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
