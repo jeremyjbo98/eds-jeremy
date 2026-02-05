@@ -187,6 +187,37 @@
               }
             }
           }
+        },
+        {
+          "title": "Banco Compartir Carousel",
+          "id": "banco-compartir-carousel",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Banco Compartir Carousel",
+                  "filter": "banco-compartir-carousel",
+                  "model": "banco-compartir-carousel"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Carousel Slide",
+          "id": "carousel-slide",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Carousel Slide",
+                  "model": "carousel-slide"
+                }
+              }
+            }
+          }
         }
       ]
     }

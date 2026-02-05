@@ -244,5 +244,35 @@
         "valueType": "string"
       }
     ]
-  }
+  },
+  {
+      "id": "banco-compartir-carousel",
+      "fields": [
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "carousel-title",
+          "label": "Titulo del Carousel"
+        }
+      ]
+    },
+    {
+      "id": "carousel-slide",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "description",
+          "label": "Descripción",
+          "value": ""
+        }
+      ]
+    }
 ]

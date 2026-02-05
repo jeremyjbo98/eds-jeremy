@@ -15,7 +15,8 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "banco-compartir-carousel"
     ]
   },
   {
@@ -43,6 +44,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "banco-compartir-carousel",
+    "components": [
+      "carousel-slide"
     ]
   }
 ]
